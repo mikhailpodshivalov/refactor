@@ -1,6 +1,8 @@
 
 cd src
+
 docker-compose up --build
+
 docker exec -it app php artisan migrate
 
 api available on: http://localhost:88/api/v1
