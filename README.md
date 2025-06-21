@@ -1,6 +1,4 @@
 
-cd src
-
 docker-compose up --build
 
 docker exec -it app php artisan migrate
